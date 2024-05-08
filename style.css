@@ -10,17 +10,18 @@ body {
 
 .smartuniverse {
     position: absolute;
-    left: 40%;
+    left: 38%;
     top: 11%;
-    color: aqua;
+    color: rgb(128, 173, 180);
     font-size: 380%;
     font-style: oblique;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 0px 11px 10px rgb(58, 58, 73);
 }
 
 .discord {
     position: absolute;
-    left: 46%;
+    left: 47%;
     top: 34%;
     color: rgb(234, 252, 252);
     font-size: 110%;
@@ -36,6 +37,14 @@ body {
     font-style: oblique;
 }
 
+.dsword {
+    color: rgb(107, 106, 124);
+}
+
+.jfxword {
+    color: rgb(107, 106, 124);
+}
+
 .supp {
     position: absolute;
     left: 87%;
@@ -43,6 +52,7 @@ body {
     color: rgb(234, 252, 252);
     font-size: 110%;
     font-style: oblique;
+    box-shadow: 0 11px 10px rgb(58, 58, 73);
 }
 
 .prava {
