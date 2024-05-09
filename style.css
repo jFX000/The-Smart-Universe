@@ -10,19 +10,22 @@ body {
 
 .smartuniverse {
     position: absolute;
-    left: 38%;
+    left: 29%;
     top: 11%;
     color: rgb(128, 173, 180);
-    font-size: 380%;
+    font-size: 590%;
     font-style: oblique;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    box-shadow: 0px 11px 10px rgb(58, 58, 73);
+    box-shadow: 11px 11px 10px rgb(58, 58, 73);
+    background-color: rgba(128, 128, 128, 0.185);
+    border-radius: 10%;
+    border-color: rgb(85, 85, 85);
 }
 
 .discord {
     position: absolute;
-    left: 47%;
-    top: 34%;
+    left: 46%;
+    top: 40%;
     color: rgb(234, 252, 252);
     font-size: 110%;
     font-style: oblique;
@@ -30,8 +33,8 @@ body {
 
 .about {
     position: absolute;
-    left: 31%;
-    top: 27%;
+    left: 30%;
+    top: 30%;
     color: rgb(234, 252, 252);
     font-size: 110%;
     font-style: oblique;
@@ -45,22 +48,12 @@ body {
     color: rgb(107, 106, 124);
 }
 
-.supp {
-    position: absolute;
-    left: 87%;
-    top: 6%;
-    color: rgb(234, 252, 252);
-    font-size: 110%;
-    font-style: oblique;
-    box-shadow: 0 11px 10px rgb(58, 58, 73);
-}
-
 .prava {
     position: absolute;
-    left: 80%;
+    left: 36%;
     top: 115%;
     color: rgb(234, 252, 252);
-    font-size: 110%;
+    font-size: 150%;
     font-style: oblique;
 }
 
@@ -74,4 +67,36 @@ body {
 
 ::-webkit-scrollbar-thumb {
     background-color: rgb(58, 58, 73);
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+    background-size: cover;
+    background-image: url(images/img.jpg);
+}
+    
+.smartuniverse {
+    left: 7%;
+    top: 8%;
+    font-size: 470%;
+}
+    
+.discord {
+    left: 37%;
+    top: 40%;
+    font-size: 130%;
+}
+    
+.about {
+    left: 5%;
+    top: 25%;
+    font-size: 130%;
+}
+    
+.prava {
+    left: 11%;
+    top: 125%;
+    font-size: 150%;
+}
+
 }
