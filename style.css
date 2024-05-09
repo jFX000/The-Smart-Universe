@@ -22,15 +22,6 @@ body {
     border-color: rgb(85, 85, 85);
 }
 
-.discord {
-    position: absolute;
-    left: 46%;
-    top: 40%;
-    color: rgb(234, 252, 252);
-    font-size: 110%;
-    font-style: oblique;
-}
-
 .about {
     position: absolute;
     left: 30%;
